@@ -1,0 +1,2 @@
+# generatoru
+generatoruOPT
