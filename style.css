@@ -1,0 +1,68 @@
+a[href*="html"] {
+    color: green; /* Усі посилання, що містять "html" у своєму href атрибуті, будуть зеленого кольору */
+}
+
+h1, footer {
+    color: rgb(8, 27, 89); /* Заголовки h1 та елементи footer будуть мати колір rgb(8, 27, 89) */
+}
+
+h1, h2 {
+    text-align: center; /* Заголовки h1 та h2 будуть вирівняні по центру */
+}
+
+div > p {
+    color: rgba(186, 7, 7, 0.676); /* Прямі дочірні елементи p всередині div будуть мати колір rgba(186, 7, 7, 0.676) */
+    font-size: 18px; /* Розмір шрифту буде 18px */
+    text-align: center; /* Текст буде вирівняний по центру */
+}
+
+.menu {
+    list-style-type: none; /* Список в меню буде без маркерів */
+    padding-left: 0; /* Відступ зліва буде 0 */
+    margin-left: 0; /* Зовнішній відступ зліва буде 0 */
+}
+
+.menu a {
+    font-size: 25px; /* Розмір шрифту для посилань в меню буде 25px */
+    text-decoration: none; /* Текст без підкреслення */
+    font-family: sans-serif; /* Шрифт буде sans-serif */
+    color: #5757a0; /* Колір тексту буде #5757a0 */
+    display: inline-block; /* Відображення як inline-block */
+    padding: 20px 115px; /* Внутрішні відступи: 20px зверху і знизу, 115px зліва і справа */
+    background-color: lavender; /* Колір фону буде лаванда */
+    border-bottom: 10px solid #5757a0; /* Нижня межа буде 10px суцільного кольору #5757a0 */
+}
+
+.menu li {
+    display: inline; /* Елементи списку будуть відображатися в один рядок */
+}
+
+#My form {
+    display: none; /* Елемент з id "My" і всередині нього тег form буде прихований */
+    margin-top: 0em; /* Верхній зовнішній відступ буде 0em */
+}
+
+#id-element {
+    color: #0808a8;
+    font-weight: bold; /* Шрифт жирний */
+}
+
+#login {
+    color: rgba(43, 4, 83, 0.676); /* Елемент з id "login" буде мати колір rgba(43, 4, 83, 0.676) */
+    font-size: 25px; /* Розмір шрифту буде 25px */
+}
+
+div form {
+    color: #03034b;
+    font-weight: bold; /* Шрифт жирний */
+}
+
+div input {
+    color: #e91374;
+    font-weight: bold; /* Шрифт жирний */
+}
+
+footer {
+    background-color: rgb(184, 177, 228); /* Колір фону для підвалу буде rgb(184, 177, 228) */
+    text-align: center; /* Текст в підвалі буде вирівняний по центру */
+}
