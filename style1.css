@@ -1,0 +1,19 @@
+div > p {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+
+div, p {
+    text-align: justify;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+a[href*="html"] {
+    color: rgb(11, 2, 168);
+    font-size: 23px;
+}

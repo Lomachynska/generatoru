@@ -1,0 +1,14 @@
+a[href*="index.html"] {
+    color: rgb(11, 2, 168);
+    font-size: 23px;
+    text-align: justify;
+}
+
+div, p {
+    text-align: center;
+}
+
+footer > p {
+    font-size: 33px;
+    background-color: rgb(12, 184, 219);
+}
